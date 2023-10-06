@@ -5,8 +5,7 @@ Vial configs for my 60 key ortholinear keyboard.
 
 - Toggle between qwerty and colemak-dh
 - Backspace without fully rearranging hands
-- ~~Symbols in "familiar" places~~
-  - ~~ISO-like arrangement~~
+- Symbols in familiar or at least logical places
 - Arrow keys available for moving windows / chunks of code around
   - Generally, arrow keys available with and without layer switching
 - Numpad layer
