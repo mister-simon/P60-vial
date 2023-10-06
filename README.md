@@ -40,3 +40,141 @@ Vial configs for my 60 key ortholinear keyboard.
 - [The Miryoku layout](https://github.com/manna-harbour/miryoku/tree/master/docs/reference)
 - [A guide to home row mods](https://precondition.github.io/home-row-mods)
 - [Keymap DB](https://keymapdb.com/)
+
+
+## Main Layout
+
+### Layer 0 - QWERTY + Standard Mods
+
+![Layer 0 - QWERTY + Standard Mods](img/main/l0.png)
+
+- Esc in top left
+- ISO number row
+- Rotary encoder - Basic media controls
+- Central
+  - QWERTY ISO keys (I'm from the UK)
+- Left col
+  - Backspace replaces caps lock positioning
+- Right col
+  - Delete replaces backspace positioning on right
+- Bottom row
+  - Macro layer switch snuck between CTRL + LGUI
+  - Outer thumb keys for main layer switches
+    - Left Outer = Symbols layer
+    - Right Outer = Navigation (arrows) + numbers
+    - Tri Layer = Functions + mouse control
+  - Experimenting with LShift for left thumb inner key (so far unsuccessfully)
+  - Space on right thumb only
+  - Arrow cluster (rarely used, but convenient for mod combos)
+
+### Layer 1 - Colemak
+
+![Layer 1 - Colemak](img/main/l1.png)
+
+- Colemak-DH angle mod
+- Only overrides colemak characters not present in QWERTY
+- Uses `'` instead of `;` for typing convenience
+- Experimental one-shot mirror mode layer on left thumb inner, to allow for left hand only typing.
+  - Line to denote axis of mirroring + to help understand hand positioning
+
+
+### Layer 2 - Symbols
+
+![Layer 2 - Symbols](img/main/l2.png)
+
+- Print screen is easily accessed
+- Dedicated base layer toggles for Qwerty + Colemak
+- Tri layer switch for functions + mouse
+- Rotary encoder set to execute macros to press MEH combinations related to audio
+  - Press = Reset audio balance
+  - Anticlockwise = Reduce left audio balance
+  - Clockwise = Increase left audio balance
+
+It's super hard to read the symbols map in the middle particularly given the ISO formatting, so here's the full thing annotated:
+
+![Symbols with cluster annotations](symbols-layer-annotated.png)
+
+- Left Hand:
+  - `!` - Close to original position in shifted number row
+  - `^` - Lesser used position for lesser used char - **cash cluster**
+  - `£` - UK symbol, positioned above frequently used `$` - **cash cluster**
+  - `+` - Forms the **calculation cluster** `+-=` - upper key for addition helped memorisation
+  - `¬` - Least used symbol in least convenient location - weirdest of the **weirdos cluster**
+  - `|` - Homerow - OR operator - **combinator cluster** with `&`
+  - `&` - Homerow - AND operator - **combinator cluster** with `|`
+  - `$` - Homerow - It's frequently used in PHP development
+  - `-` - Homerow -  Part of the **calculation cluster**, `-` is lower than `+`
+    - Frequently used as `->` in php dev
+  - `\` - Similar location to QWERTY ISO `\` key
+  - `%` - Part of secondary **calculation cluster**
+  - `*` - Part of secondary **calculation cluster**
+  - `=` - Part of the **calculation cluster**
+    - I'm debating a way to make `!=` a more comfortable movement...
+    - Frequently used as `=>` in php dev
+
+- Right Hand:
+  - `\`` - Only somewhat frequently used - part of the **weirdos cluster**
+  - `)}]` - Closing **bracket cluster**
+    - Debating rearranging to allow easier open-close movements `()`...
+  - `"` - Same positioning as shifted base layer `'`
+  - `#` - Only somewhat frequently used - part of the **weirdos cluster**
+  - `({[` - Opeing **bracket cluster** - very frequently used.
+    - Organised in terms of typical usage: E.g. `() => { return [] }`.
+  - `;` - Frequently used - Position is close to that of a fullsize qwerty layout kb - part of **colon cluster** (teehee)
+  - `~` - Part of the **weirdos cluster**
+  - `_` - Somewhat frequently used - position is near spacebar *shrug*
+  - `<>` - **carrot cluster**
+  - `:` - Part of **colon cluster**
+
+### Layer 3 - Number + Navigation
+
+![Layer 3 - Number + Navigation](img/main/l3.png)
+
+- Dedicated base layer toggles for Qwerty + Colemak
+- Numpad on left hand
+- Arrow cluster on right hand
+- Page up + down close by
+- Home, end + insert in pinky column
+- Tri layer switch for functions + mouse
+- Rotary encoder set to execute macros to press MEH combinations related to audio
+  - Press = Reset audio balance
+  - Anticlockwise = Reduce right audio balance
+  - Clockwise = Increase right audio balance
+
+### Layer 4 - Functions + Mouse
+
+![Layer 4 - Functions + Mouse](img/main/l4.png)
+
+- Left hand - Functions laid out in 4*3 grid - seems like the easiest single handed key model to visualise
+- Right hand - Mouse movements in the same positions as nav cluster on layer 3
+- Media keys in the lower row
+- Left + right click spread across unused thumb + pinky finger
+- Accelleration keys can be held with unused thumb
+- From base layer, holding right thumb then left thumb, you can then release right thumb and use it freely. The same is true with directions switched, but right then left is more useful.
+- Mouse wheel also available on rotary encoder
+
+### Layer 5 - Macros
+
+![Layer 5 - Macros](img/main/l5.png)
+
+- M14 = Bluetooth settings
+- M15 = Gui + "spotify"
+- M17 - Sits on the `F` key of the colemak layer
+  - Types `protected $fillable = [];`, and positions the cursor to define fillable attributes
+- M16 - Sits on the `P` key of the colemak layer
+  - Types `public function (){}`, and positions the cursor to define the function name
+
+
+### Layer 6 - Experimental Mirror Mode
+
+![Layer 6 - Experimental Mirror Mode](img/main/l6.png)
+
+- Is right hand of the Colemak layer - mirrored for the left hand to use
+
+### Layer 7 - RGB
+
+![Layer 7 - RGB](img/main/l7.png)
+
+- Specifically blocks lower layers to allow to test key effects
+- Layer toggle in the bottom row deactivates the layer
+- Rotary encoder to switch through effects
