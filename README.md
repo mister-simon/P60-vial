@@ -1,6 +1,8 @@
 # P60-vial
 Vial configs for my 60 key ortholinear keyboard.
 
+![My Ortholinear P60 keyboard](/img/p60.jpg)
+
 ## What I want from my layout
 
 - Toggle between qwerty and colemak-dh
