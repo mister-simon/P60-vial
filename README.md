@@ -34,6 +34,9 @@ Vial configs for my 60 key ortholinear keyboard.
 - Wide no left col
   - Loses both left and right column of modifiers (including esc, left shift, enter) in favour of more space for symbols.
 
+- Artsey
+  - An attempt at [the artsey layout](https://artsey.io). Adds a layer switch to get to the artsey layers and fills the entire combos memory with artsey key combos. Clearly not what vial / this keyboard was intended for.
+
 
 ## References
 
