@@ -48,6 +48,9 @@ Vial configs for my 60 key ortholinear keyboard.
 
 ## Main Layout
 
+This is an ongoing process... So the below is likely to be a bit out of date.
+Commits to this repo will show what I'm experimenting with at the moment.
+
 ### Layer 0 - QWERTY + Standard Mods
 
 ![Layer 0 - QWERTY + Standard Mods](img/main/l0.png)
@@ -78,7 +81,7 @@ Vial configs for my 60 key ortholinear keyboard.
 - Colemak-DH angle mod
 - Only overrides colemak characters not present in QWERTY
 - Uses `'` instead of `;` for typing convenience
-- Experimental one-shot mirror mode layer on left thumb inner, to allow for left hand only typing.
+- Experimental mirror mode layer on left thumb inner, to allow for one-hand only typing.
   - Line to denote axis of mirroring + to help understand hand positioning
 
 
@@ -100,13 +103,13 @@ It's super hard to read the symbols map in the middle particularly given the ISO
 
 - Left Hand:
   - `!` - Close to original position in shifted number row
-  - `^` - Lesser used position for lesser used char - **cash cluster**
+  - `^` - Lesser used position for lesser used char
   - `£` - UK symbol, positioned above frequently used `$` - **cash cluster**
   - `+` - Forms the **calculation cluster** `+-=` - upper key for addition helped memorisation
   - `¬` - Least used symbol in least convenient location - weirdest of the **weirdos cluster**
   - `|` - Homerow - OR operator - **combinator cluster** with `&`
   - `&` - Homerow - AND operator - **combinator cluster** with `|`
-  - `$` - Homerow - It's frequently used in PHP development
+  - `$` - Homerow - It's frequently used in PHP development - **cash cluster**
   - `-` - Homerow -  Part of the **calculation cluster**, `-` is lower than `+`
     - Frequently used as `->` in php dev
   - `\` - Similar location to QWERTY ISO `\` key
@@ -144,12 +147,17 @@ It's super hard to read the symbols map in the middle particularly given the ISO
   - Press = Reset audio balance
   - Anticlockwise = Reduce right audio balance
   - Clockwise = Increase right audio balance
+  
+**This is a little out of date - but still mostly correct**
+
+I've added tapdance to superimpose the function layer keys onto the numpad. The function keys also increase from the bottom left to top right.
 
 ### Layer 4 - Functions + Mouse
 
 ![Layer 4 - Functions + Mouse](img/main/l4.png)
 
 - Left hand - Functions laid out in 4*3 grid - seems like the easiest single handed key model to visualise
+  - Image is outdated - functions actually increase from bottom to top
 - Right hand - Mouse movements in the same positions as nav cluster on layer 3
 - Media keys in the lower row
 - Left + right click spread across unused thumb + pinky finger
@@ -162,7 +170,7 @@ It's super hard to read the symbols map in the middle particularly given the ISO
 ![Layer 5 - Macros](img/main/l5.png)
 
 - M14 = Bluetooth settings
-- M15 = Gui + "spotify"
+- ~~M15 = Gui + "spotify"~~
 - M17 - Sits on the `F` key of the colemak layer
   - Types `protected $fillable = [];`, and positions the cursor to define fillable attributes
 - M16 - Sits on the `P` key of the colemak layer
@@ -174,6 +182,7 @@ It's super hard to read the symbols map in the middle particularly given the ISO
 ![Layer 6 - Experimental Mirror Mode](img/main/l6.png)
 
 - Is right hand of the Colemak layer - mirrored for the left hand to use
+- Image is outdated, this now also supports right hand only typing.
 
 ### Layer 7 - RGB
 
