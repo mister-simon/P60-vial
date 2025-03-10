@@ -3,6 +3,10 @@ Vial configs for my 60 key ortholinear keyboard.
 
 ![My Ortholinear P60 keyboard](/img/p60.jpg)
 
+## I'm now mostly using a ZSA Voyager
+
+[My Voyager Layout](https://configure.zsa.io/voyager/layouts/eVlgx/latest) is heavily inspired by the following documentation. But with some pretty major tweaks. There are some things the Oryx configurator can't do that Vial allows and vice-versa. Still, having a lot of fun with both of these keyboards :).
+
 ## What I want from my layout
 
 - Toggle between qwerty and colemak-dh
