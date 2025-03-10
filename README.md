@@ -13,7 +13,7 @@ Vial configs for my 60 key ortholinear keyboard.
 - Backspace without fully rearranging hands
 - Symbols in familiar or at least logical places
 - Arrow keys available for moving windows / chunks of code around
-  - Generally, arrow keys available with and without layer switching
+  - ~~Generally, arrow keys available with and without layer switching~~
 - Numpad layer
 - Right hand thumb for space
 - Avoid complex chords
@@ -125,13 +125,13 @@ It's super hard to read the symbols map in the middle particularly given the ISO
 
 - Right Hand:
   - `\`` - Only somewhat frequently used - part of the **weirdos cluster**
-  - `)}]` - Closing **bracket cluster**
+  - `)}]` - Homerow - Closing **bracket cluster**
     - Debating rearranging to allow easier open-close movements `()`...
   - `"` - Same positioning as shifted base layer `'`
   - `#` - Only somewhat frequently used - part of the **weirdos cluster**
   - `({[` - Opeing **bracket cluster** - very frequently used.
     - Organised in terms of typical usage: E.g. `() => { return [] }`.
-  - `;` - Frequently used - Position is close to that of a fullsize qwerty layout kb - part of **colon cluster** (teehee)
+  - `;` - Homerow - Frequently used - Position is close to that of a fullsize qwerty layout kb - part of **colon cluster** (teehee)
   - `~` - Part of the **weirdos cluster**
   - `_` - Somewhat frequently used - position is near spacebar *shrug*
   - `<>` - **carrot cluster**
@@ -152,7 +152,7 @@ It's super hard to read the symbols map in the middle particularly given the ISO
   - Anticlockwise = Reduce right audio balance
   - Clockwise = Increase right audio balance
   
-**This is a little out of date - but still mostly correct**
+**Image is a little out of date - but still mostly correct**
 
 I've added tapdance to superimpose the function layer keys onto the numpad. The function keys also increase from the bottom left to top right.
 
@@ -171,6 +171,8 @@ I've added tapdance to superimpose the function layer keys onto the numpad. The 
 
 ### Layer 5 - Macros
 
+**This layer is mostly retired, in favour of application level autocomplete / snippets, etc.**
+
 ![Layer 5 - Macros](img/main/l5.png)
 
 - M14 = Bluetooth settings
@@ -182,6 +184,8 @@ I've added tapdance to superimpose the function layer keys onto the numpad. The 
 
 
 ### Layer 6 - Experimental Mirror Mode
+
+**Honestly, highly recommend giving mirror mode a go. You may not use it often, but when you do, it's highly satisfying.**
 
 ![Layer 6 - Experimental Mirror Mode](img/main/l6.png)
 
